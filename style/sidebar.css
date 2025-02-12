@@ -1,0 +1,43 @@
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-right: 1px solid #dbdbdb;
+
+  padding: 72px 16px;
+  width: 16%;
+}
+
+#sidebar .home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+#sidebar .home .logo {
+  width: 64px;
+  height: 64px;
+}
+
+#sidebar .menu-bar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+#sidebar .menu-bar .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 8px;
+  gap: 12px;
+}
+
+#sidebar .menu-bar .menu img {
+  width: 19px;
+  height: 19px;
+}
