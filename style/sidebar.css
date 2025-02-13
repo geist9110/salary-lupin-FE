@@ -7,6 +7,13 @@
 
   padding: 72px 0px;
   width: 264px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  cursor: default;
 }
 
 #sidebar .home {
@@ -35,6 +42,7 @@
 
 #sidebar .menu-bar .menu-container {
   transition: background 0.1s ease-in-out;
+  cursor: pointer;
   width: 100%;
 }
 
