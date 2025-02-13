@@ -5,8 +5,8 @@
   align-items: flex-start;
   border-right: 1px solid #dbdbdb;
 
-  padding: 72px 16px;
-  width: 16%;
+  padding: 72px 0px;
+  width: 264px;
 }
 
 #sidebar .home {
@@ -24,17 +24,31 @@
 #sidebar .menu-bar {
   display: flex;
   flex-direction: column;
-  width: 100%;
   align-items: flex-start;
+  width: 100%;
   gap: 12px;
+}
+
+#sidebar .menu-bar .menu-title {
+  padding-left: 16px;
+}
+
+#sidebar .menu-bar .menu-container {
+  transition: background 0.1s ease-in-out;
+  width: 100%;
 }
 
 #sidebar .menu-bar .menu {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 8px;
+  height: 36px;
+  padding-left: 24px;
   gap: 12px;
+}
+
+#sidebar .menu-bar .menu-container:hover {
+  background-color: #e8f9ff;
 }
 
 #sidebar .menu-bar .menu img {
