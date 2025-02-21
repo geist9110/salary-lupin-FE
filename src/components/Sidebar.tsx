@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import MenuContainer from './MenuContainer';
+import './sidebar.css';
 
 const menuItems = [
   {
@@ -36,9 +37,9 @@ const menuItems = [
 export default class Sidebar extends Component {
   render() {
     return (
-      <div>
-        <div>
-          <img src="./logo512.png" width={64} />
+      <div id="sidebar-container">
+        <div id="home" className="bold x-large">
+          <img src="./logo512.png" id="home-logo" />
           월급 루팡
         </div>
         {menuItems.map((item, index) => (

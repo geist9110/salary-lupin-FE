@@ -11,8 +11,8 @@ export default class Menu extends Component<MenuProps> {
   render() {
     const { name, src, destination } = this.props;
     return (
-      <li>
-        <Link to={destination}>
+      <li className="menu">
+        <Link to={destination} className="medium">
           <img src={src} />
           {name}
         </Link>

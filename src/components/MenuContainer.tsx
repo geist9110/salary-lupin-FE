@@ -10,8 +10,8 @@ export default class MenuContainer extends Component<MenuContainerProps> {
   render() {
     const { title, menu } = this.props;
     return (
-      <ul>
-        <div>{title}</div>
+      <ul className="menu-container">
+        <div className="bold large">{title}</div>
         {menu.map((item, index) => (
           <Menu key={index} name={item.name} src={item.src} destination={item.destination} />
         ))}
