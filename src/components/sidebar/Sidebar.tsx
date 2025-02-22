@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { icons } from '../assets/icon/icons';
+import { icons } from '../../assets/icon/icons';
 import MenuContainer from './MenuContainer';
 import './sidebar.css';
 

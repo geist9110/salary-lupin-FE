@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { icons } from '../../assets/icon/icons';
-import HyperLink from '../../components/HyperLink';
+import HyperLink from '../../components/hyperlink/HyperLink';
 import './home.css';
 
 export default class Home extends Component {
