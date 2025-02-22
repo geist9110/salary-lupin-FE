@@ -1,0 +1,29 @@
+#home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30%;
+
+  width: 100%;
+  height: 100%;
+}
+
+#information-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.information-title {
+  width: 100%;
+  text-align: center;
+}
