@@ -13,6 +13,10 @@
   font-weight: bold;
 }
 
+.xxxx-large {
+  font-size: 64px;
+}
+
 .x-large {
   font-size: x-large;
 }
@@ -23,4 +27,9 @@
 
 .medium {
   font-size: medium;
+}
+
+.icon-small {
+  width: 16px;
+  height: 16px;
 }
