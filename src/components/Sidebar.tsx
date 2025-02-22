@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { icons } from '../assets/icon/icons';
 import MenuContainer from './MenuContainer';
 import './sidebar.css';
@@ -39,10 +40,10 @@ export default class Sidebar extends Component {
   render() {
     return (
       <div id="sidebar-container">
-        <div id="home" className="bold x-large">
+        <Link id="home" className="bold x-large" to={'/'}>
           <img src="./logo512.png" id="home-logo" />
           월급 루팡
-        </div>
+        </Link>
         {menuItems.map((item, index) => (
           <MenuContainer key={index} title={item.title} menu={item.menu} />
         ))}
